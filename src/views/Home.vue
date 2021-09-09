@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="../assets/img/logo.png" />
     <h1>欢迎进行Vue的测试</h1>
     <ul>
-      <li>1, 请完成5道题中的任意3题，全部完成更好；</li>
+      <li>1, 请完成5道题中的任意1-2题，请严格按需求完成，注意代码质量；</li>
       <li>2, 每道题目的要求见具体页面内的注释说明，页面仅用来展示已实现组件的功能，具体组件请到components目录创建；</li>
       <li>3, 代码必须要有完整的注释，规范见：<a target="_blank" href="https://jsdoc.app/">JSDOC</a>；</li>
       <li>4, 样式请使用BEM风格书写，规范见：<a target="_blank" href="https://en.bem.info/">BEM</a>；</li>
