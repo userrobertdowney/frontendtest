@@ -1,10 +1,11 @@
 <template>
   <div class="page page-poster">
-    <h1>生成海报</h1>
+    <canvasPoster :showPercent="showPercent" />
   </div>
 </template>
 
 <script>
+import canvasPoster from '../components/Poster/index.vue'
 /**
  * 生成海报
  * 组件目的：依据设计图，用canvas动态生成一张分享图片（包含二维码）
@@ -22,10 +23,16 @@
  */
 export default {
   name: 'Poster',
+  components: { canvasPoster },
+  data() {
+    return {
+      showPercent: false,
+    }
+  },
 }
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .page-poster {
   color: inherit;
 }
